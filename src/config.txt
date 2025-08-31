@@ -1,0 +1,3 @@
+10000 --NR_PARTICLES
+5 --G
+0 --THETA

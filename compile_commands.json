@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/andre/Desktop/projects/practice/out/build/Preset",
+  "command": "C:\\MinGW\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Practice.dir/includes_CXX.rsp -g -std=gnu++17 -pthread -o CMakeFiles\\Practice.dir\\Practice_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\andre\\Desktop\\projects\\practice\\out\\build\\Preset\\Practice_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/andre/Desktop/projects/practice/out/build/Preset/Practice_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Practice.dir/Practice_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/andre/Desktop/projects/practice/out/build/Preset",
+  "command": "C:\\MinGW\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Practice.dir/includes_CXX.rsp -g -std=gnu++17 -pthread -o CMakeFiles\\Practice.dir\\src\\engine.cpp.obj -c C:\\Users\\andre\\Desktop\\projects\\practice\\src\\engine.cpp",
+  "file": "C:/Users/andre/Desktop/projects/practice/src/engine.cpp",
+  "output": "CMakeFiles/Practice.dir/src/engine.cpp.obj"
+},
+{
+  "directory": "C:/Users/andre/Desktop/projects/practice/out/build/Preset",
+  "command": "C:\\MinGW\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Practice.dir/includes_CXX.rsp -g -std=gnu++17 -pthread -o CMakeFiles\\Practice.dir\\src\\main.cpp.obj -c C:\\Users\\andre\\Desktop\\projects\\practice\\src\\main.cpp",
+  "file": "C:/Users/andre/Desktop/projects/practice/src/main.cpp",
+  "output": "CMakeFiles/Practice.dir/src/main.cpp.obj"
+}
+]
