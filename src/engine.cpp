@@ -62,9 +62,9 @@ ctData{G, theta} {
     createStagingBuffer(particles, &particlesStagingBuffer);
     createCTBuffer(16, &ctData);
     
-    createCSShader(L"..//..//..//src//renderShader.hlsl", &CSRenderShader);
-    createCSShader(L"..//..//..//src//logicShader.hlsl", &CSLogicShader);
-    createCSShader(L"..//..//..//src//resetTexture.hlsl", &CSResetTextureShader);
+    createCSShader(L"..//src//renderShader.hlsl", &CSRenderShader);
+    createCSShader(L"..//src//logicShader.hlsl", &CSLogicShader);
+    createCSShader(L"..//src//resetTexture.hlsl", &CSResetTextureShader);
     
     deviceContext->CSSetUnorderedAccessViews(0, 1, &backBufferView, nullptr);
     deviceContext->CSSetUnorderedAccessViews(1, 1, &particlesBufferView, nullptr);

@@ -22,7 +22,11 @@ float clockToMSecs(clock_t ticks) {
 }
 
 int main(int argc, char **argv) {
-    std::ifstream in("..//..//..//src//config.txt");
+    std::ifstream in("..//src//config.txt");
+    if (in.fail()) {
+        std::cerr << "Could not open config.txt file\n";
+        return -1;
+    }
 
     std::size_t NR_PARTICLES;
     float G, THETA;
