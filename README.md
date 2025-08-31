@@ -20,6 +20,10 @@ The config.txt file is used to change three parameters at runtime:
 of the algorithm (0.0 - brute-force, 1.0 - less accurate, but can simulate 1M particles
 efficiently)
 
+Modify the source code (specifically "main.cpp") for different particle formations.
+Use SPACE to pause/unpause the simulation.
+The framerate is displayed in the terminal.
+
 ## License
 
 [LGPL 2.1](https://choosealicense.com/licenses/lgpl-2.1/)    
